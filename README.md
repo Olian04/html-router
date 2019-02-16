@@ -8,11 +8,9 @@ __Note:__ The name is a work in progress.
 <body>
   <router-view></router-view>
   
-  <router-button path="/login">Login</router-button>
-  
   <router-route path="/home">
     <h1>Home route!</h1>
-    <button onclick="router.push('/login')">Login</button>
+    <router-button path="/login">Login</router-button>
   </router-route>
   
   <router-route path="/" redirect="/home"></router-route>
