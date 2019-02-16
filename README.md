@@ -1,6 +1,6 @@
 # web-component-router
 
-A router designed with simplicity in mind.
+A router designed with simplicity in mind where you dont have to touch any javascript if you dont want to.
 
 __Note:__ The name is a work in progress.
 
