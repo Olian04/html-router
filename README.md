@@ -10,7 +10,7 @@ __Note:__ The name is a work in progress.
   
   <router-route path="/home">
     <h1>Home route!</h1>
-    <router-button path="/login">Login</router-button>
+    <button onclick="routerRedirect('/login')">Login</button>
   </router-route>
   
   <router-route path="/" redirect="/home"></router-route>
