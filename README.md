@@ -1,6 +1,6 @@
-# web-component-router
+# html-router
 
-A router designed with simplicity in mind where you dont have to touch any javascript if you dont want to.
+A router designed with simplicity in mind.
 
 ```html
 <body>
@@ -18,6 +18,6 @@ A router designed with simplicity in mind where you dont have to touch any javas
       <button onclick="router.push('/home')">Load Home!</button>
   </router-route>
 
-  <script src="./web-component-router.js"></script>
+  <script src="https://unpkg.com/html-router"></script>
 </body>
 ```
