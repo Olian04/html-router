@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>web-component-router | Demo</title>
+</head>
+<body>
+    <router-view></router-view>
+
+    <router-route path="/" redirect="/home"></router-route>
+    
+    <router-route path="/home">
+        <h1>Home!</h1>
+        <button onclick="router.push('/login')">Load Login!</button>
+    </router-route>
+
+    <router-route path="/login">
+        <h1>Login!</h1>
+        <button onclick="router.push('/home')">Load Home!</button>
+    </router-route>
+    
+    <script src="./web-component-router.js"></script>
+</body>
+</html>

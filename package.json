@@ -1,0 +1,28 @@
+{
+  "name": "web-component-router",
+  "version": "1.0.0",
+  "description": "A router designed with simplicity in mind where you dont have to touch any javascript if you dont want to.",
+  "main": "web-component-router.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Olian04/web-component-router.git"
+  },
+  "keywords": [
+    "web-components",
+    "webcomponents",
+    "web",
+    "components",
+    "component",
+    "client-side",
+    "router"
+  ],
+  "author": "Olian04",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Olian04/web-component-router/issues"
+  },
+  "homepage": "https://github.com/Olian04/web-component-router#readme"
+}
