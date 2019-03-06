@@ -1,6 +1,6 @@
 {
   "name": "html-router",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "A router designed with simplicity in mind where you dont have to touch any javascript if you dont want to.",
   "main": "html-router.js",
   "scripts": {

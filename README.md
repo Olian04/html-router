@@ -2,6 +2,8 @@
 
 A router designed with simplicity in mind.
 
+[Fiddle demo](https://jsfiddle.net/470nx5gk/5/)
+
 ```html
 <body>
   <router-view></router-view>
