@@ -2,7 +2,9 @@
 
 A router designed with simplicity in mind.
 
-[Fiddle demo](https://jsfiddle.net/olian04/whc745aL/2/)
+[Fiddle demo](https://jsfiddle.net/olian04/whc745aL/2/) 
+
+[Fiddle demo (with brynja)](https://jsfiddle.net/olian04/mu5sz029/26/)
 
 ```html
 <body>
