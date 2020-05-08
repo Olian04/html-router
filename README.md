@@ -13,13 +13,13 @@ A router designed with simplicity in mind.
   <router-route path="/" redirect="/home"></router-route>
 
   <router-route path="/home">
-      <h1>Home!</h1>
-      <button onclick="router.push('/login')">Load Login!</button>
+    <h1>Home!</h1>
+    <a href="#/login">Load Login!</a>
   </router-route>
 
   <router-route path="/login">
-      <h1>Login!</h1>
-      <button onclick="router.push('/home')">Load Home!</button>
+    <h1>Login!</h1>
+    <a href="#/home">Load Home!</a>
   </router-route>
 
   <script src="https://unpkg.com/html-router"></script>
