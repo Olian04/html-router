@@ -1,4 +1,4 @@
-window.router = (() => {
+(() => {
     const R = {
         push(path) {
               window.location.hash = '#'+path;
@@ -78,6 +78,4 @@ window.router = (() => {
          }
       }
     );
-
-    return R;
 })();
